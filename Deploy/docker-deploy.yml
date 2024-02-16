@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - name: Pull Docker image from Docker Hub
-      shell: docker pull azizuchiha/calculator:latest
+      shell: docker pull azizuchiha/calci:latest
 
     - name: Run Docker container
-      shell: docker run -d -p 8081:8080 azizuchiha/calculator:latest
+      shell: docker run -d -p 8081:8080 azizuchiha/calci:latest
