@@ -1,0 +1,2 @@
+[localhost]
+aziz ansible_connection=local
